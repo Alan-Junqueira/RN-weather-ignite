@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
@@ -28,6 +28,11 @@
     },
     "experiments": {
       "tsconfigPaths": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be0315ee-fda0-4b9f-9676-ce72301cc1e3"
+      }
     }
   }
 }
